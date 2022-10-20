@@ -1,39 +1,600 @@
 {
-    "_links": {
-        "self": {
-            "href": "\/networks\/08e1e1eadc000e6c\/timeline\/?type=event"
-        }
-    },
     "_embedded": {
         "messages": [
             {
-                "_links": {
-                    "self": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/47de0669e80dc628\/"
-                    },
+                "author": {
+                    "EID": "46f602f017081880",
+                    "type": "user"
+                },
+                "recipient": {
+                    "EID": "25975f8b81000eb4",
+                    "type": "network",
+                    "name": "network"
+                },
+                "_embedded": {
                     "author": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/users\/420e214f9c0dc038\/"
+                        "network": {
+                            "EID": "25975f8b81000eb4",
+                            "type": "network"
+                        },
+                        "avatar": {
+                            "EID": "4801fccd7d081904",
+                            "type": "message"
+                        },
+                        "type": "user",
+                        "EID": "46f602f017081880",
+                        "emailAddresses": [
+                            {
+                                "value": "gennadii.belogortcev+1@speakap.nl",
+                                "primary": true,
+                                "confirmed": true,
+                                "hidden": true
+                            }
+                        ],
+                        "fullName": "Goose Duck",
+                        "languages": [],
+                        "telephoneNumbers": [],
+                        "avatarThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/4801fccd7d081904/thumbnail",
+                        "headerBackgroundUrl": "",
+                        "deleted": false,
+                        "external": false,
+                        "_user": {
+                            "permissions": ""
+                        }
                     },
                     "recipient": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/",
-                        "name": "network"
+                        "rootFolder": {
+                            "EID": "25975f8b8908155c",
+                            "type": "message"
+                        },
+                        "emblem": {
+                            "EID": "31e627f4350813e4",
+                            "type": "message"
+                        },
+                        "favicon": {
+                            "EID": "31e6290f89081c5c",
+                            "type": "message"
+                        },
+                        "userProfile": {
+                            "EID": "417cd338fb081f4c",
+                            "type": "user"
+                        },
+                        "type": "network",
+                        "EID": "25975f8b81000eb4",
+                        "name": "Uniqlo",
+                        "emblemThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/31e627f4350813e4/thumbnail",
+                        "_user": {
+                            "numUnreadConversations": 0,
+                            "numUnreadNewsItems": 3,
+                            "numAdminAlerts": 0,
+                            "numUnreadAlertsCoalesced": 21,
+                            "numUnrespondedEvents": 0,
+                            "numNewTasks": 0,
+                            "profileEID": "417cd338fb081f4c",
+                            "permissions": "post_news,edit_network,create_group_public,create_group_restricted,create_group_private,create_group_secret,edit_network_widgets,edit_spotlight,edit_network_theme,assign_role,network_invite_user,delete_network_membership,edit_network_settings,create_role,edit_role,delete_role,assign_admin_role,install_app,add_edit_files,add_edit_folders,manage_files,view_network_messages,network_invite_external_user,post_to_network,access_network_users,access_network_groups,manage_user_groups,post_news_to_all_groups,manage_organization_structure,access_all_business_units,browse_files,customize_network_invite,arrange_widgets,post_updates_to_all_groups,manage_user_redeemable_codes,post_events_to_all_groups,post_events_to_network,edit_terms_and_conditions,pin_message,post_polls_to_network,post_polls_to_all_groups,delete_poll,access_statistics,view_user_activity,edit_network_pages,edit_menu_items,post_pages_to_network,post_pages_to_any_group,edit_page,delete_page,manage_journeys,manage_individual_tasks,manage_group_tasks,edit_profile_xid",
+                            "member": true,
+                            "track": {
+                                "mixpanel": {
+                                    "tracking": false
+                                }
+                            }
+                        }
                     },
-                    "comments": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/?parent=47de0669e80dc628"
-                    },
-                    "like": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/47de0669e80dc628\/like"
-                    },
-                    "likers": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/47de0669e80dc628\/likers\/"
-                    }
+                    "comments": [],
+                    "likers": []
                 },
                 "type": "message",
-                "EID": "47de0669e80dc628",
-                "created": "2022-10-13T13:00:40.015+00:00",
+                "EID": "4801fe4c67081b94",
+                "created": "2022-10-20T12:38:08.205+00:00",
+                "messageType": "update",
+                "superseded": false,
+                "body": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"\n\n",
+                "numRecipients": 1,
+                "numImages": 0,
+                "numVideos": 0,
+                "numFiles": 0,
+                "numComments": 0,
+                "numLikes": 0,
+                "commentable": true,
+                "reactionStats": [],
+                "_user": {
+                    "hasLiked": false,
+                    "subscribed": false,
+                    "permissions": "comment,delete,like"
+                }
+            },
+            {
+                "author": {
+                    "EID": "46f602f017081880",
+                    "type": "user"
+                },
+                "recipient": {
+                    "EID": "25975f8b81000eb4",
+                    "type": "network",
+                    "name": "network"
+                },
+                "_embedded": {
+                    "author": {
+                        "network": {
+                            "EID": "25975f8b81000eb4",
+                            "type": "network"
+                        },
+                        "avatar": {
+                            "EID": "4801fccd7d081904",
+                            "type": "message"
+                        },
+                        "type": "user",
+                        "EID": "46f602f017081880",
+                        "emailAddresses": [
+                            {
+                                "value": "gennadii.belogortcev+1@speakap.nl",
+                                "primary": true,
+                                "confirmed": true,
+                                "hidden": true
+                            }
+                        ],
+                        "fullName": "Goose Duck",
+                        "languages": [],
+                        "telephoneNumbers": [],
+                        "avatarThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/4801fccd7d081904/thumbnail",
+                        "headerBackgroundUrl": "",
+                        "deleted": false,
+                        "external": false,
+                        "_user": {
+                            "permissions": ""
+                        }
+                    },
+                    "recipient": {
+                        "rootFolder": {
+                            "EID": "25975f8b8908155c",
+                            "type": "message"
+                        },
+                        "emblem": {
+                            "EID": "31e627f4350813e4",
+                            "type": "message"
+                        },
+                        "favicon": {
+                            "EID": "31e6290f89081c5c",
+                            "type": "message"
+                        },
+                        "userProfile": {
+                            "EID": "417cd338fb081f4c",
+                            "type": "user"
+                        },
+                        "type": "network",
+                        "EID": "25975f8b81000eb4",
+                        "name": "Uniqlo",
+                        "emblemThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/31e627f4350813e4/thumbnail",
+                        "_user": {
+                            "numUnreadConversations": 0,
+                            "numUnreadNewsItems": 3,
+                            "numAdminAlerts": 0,
+                            "numUnreadAlertsCoalesced": 21,
+                            "numUnrespondedEvents": 0,
+                            "numNewTasks": 0,
+                            "profileEID": "417cd338fb081f4c",
+                            "permissions": "post_news,edit_network,create_group_public,create_group_restricted,create_group_private,create_group_secret,edit_network_widgets,edit_spotlight,edit_network_theme,assign_role,network_invite_user,delete_network_membership,edit_network_settings,create_role,edit_role,delete_role,assign_admin_role,install_app,add_edit_files,add_edit_folders,manage_files,view_network_messages,network_invite_external_user,post_to_network,access_network_users,access_network_groups,manage_user_groups,post_news_to_all_groups,manage_organization_structure,access_all_business_units,browse_files,customize_network_invite,arrange_widgets,post_updates_to_all_groups,manage_user_redeemable_codes,post_events_to_all_groups,post_events_to_network,edit_terms_and_conditions,pin_message,post_polls_to_network,post_polls_to_all_groups,delete_poll,access_statistics,view_user_activity,edit_network_pages,edit_menu_items,post_pages_to_network,post_pages_to_any_group,edit_page,delete_page,manage_journeys,manage_individual_tasks,manage_group_tasks,edit_profile_xid",
+                            "member": true,
+                            "track": {
+                                "mixpanel": {
+                                    "tracking": false
+                                }
+                            }
+                        }
+                    },
+                    "comments": [],
+                    "likers": []
+                },
+                "type": "message",
+                "EID": "4801fe1213081ad0",
+                "created": "2022-10-20T12:37:53.276+00:00",
+                "messageType": "update",
+                "superseded": false,
+                "body": "Excited to make this cool update quack quack folks! I hope you don't miss this update, very quack important",
+                "numRecipients": 1,
+                "numImages": 0,
+                "numVideos": 0,
+                "numFiles": 0,
+                "numComments": 0,
+                "numLikes": 0,
+                "commentable": true,
+                "reactionStats": [],
+                "_user": {
+                    "hasLiked": false,
+                    "subscribed": false,
+                    "permissions": "comment,delete,like"
+                }
+            },
+            {
+                "author": {
+                    "EID": "472a27e31a081ebc",
+                    "type": "user"
+                },
+                "lastEditor": {
+                    "EID": "472a27e31a081ebc",
+                    "type": "user"
+                },
+                "_embedded": {
+                    "author": {
+                        "network": {
+                            "EID": "25975f8b81000eb4",
+                            "type": "network"
+                        },
+                        "avatar": {
+                            "EID": "4801f4a5660819a0",
+                            "type": "message"
+                        },
+                        "type": "user",
+                        "EID": "472a27e31a081ebc",
+                        "emailAddresses": [
+                            {
+                                "value": "gennadii.belogortcev+2@speakap.nl",
+                                "primary": true,
+                                "confirmed": true,
+                                "hidden": true
+                            }
+                        ],
+                        "fullName": "Catty Cat",
+                        "languages": [],
+                        "telephoneNumbers": [],
+                        "avatarThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/4801f4a5660819a0/thumbnail",
+                        "headerBackgroundUrl": "",
+                        "deleted": false,
+                        "external": false,
+                        "_user": {
+                            "permissions": ""
+                        }
+                    },
+                    "recipients": [
+                        {
+                            "rootFolder": {
+                                "EID": "25975f8b8908155c",
+                                "type": "message"
+                            },
+                            "emblem": {
+                                "EID": "31e627f4350813e4",
+                                "type": "message"
+                            },
+                            "favicon": {
+                                "EID": "31e6290f89081c5c",
+                                "type": "message"
+                            },
+                            "userProfile": {
+                                "EID": "417cd338fb081f4c",
+                                "type": "user"
+                            },
+                            "type": "network",
+                            "EID": "25975f8b81000eb4",
+                            "name": "Uniqlo",
+                            "emblemThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/31e627f4350813e4/thumbnail",
+                            "_user": {
+                                "numUnreadConversations": 0,
+                                "numUnreadNewsItems": 3,
+                                "numAdminAlerts": 0,
+                                "numUnreadAlertsCoalesced": 21,
+                                "numUnrespondedEvents": 0,
+                                "numNewTasks": 0,
+                                "profileEID": "417cd338fb081f4c",
+                                "permissions": "post_news,edit_network,create_group_public,create_group_restricted,create_group_private,create_group_secret,edit_network_widgets,edit_spotlight,edit_network_theme,assign_role,network_invite_user,delete_network_membership,edit_network_settings,create_role,edit_role,delete_role,assign_admin_role,install_app,add_edit_files,add_edit_folders,manage_files,view_network_messages,network_invite_external_user,post_to_network,access_network_users,access_network_groups,manage_user_groups,post_news_to_all_groups,manage_organization_structure,access_all_business_units,browse_files,customize_network_invite,arrange_widgets,post_updates_to_all_groups,manage_user_redeemable_codes,post_events_to_all_groups,post_events_to_network,edit_terms_and_conditions,pin_message,post_polls_to_network,post_polls_to_all_groups,delete_poll,access_statistics,view_user_activity,edit_network_pages,edit_menu_items,post_pages_to_network,post_pages_to_any_group,edit_page,delete_page,manage_journeys,manage_individual_tasks,manage_group_tasks,edit_profile_xid",
+                                "member": true,
+                                "track": {
+                                    "mixpanel": {
+                                        "tracking": false
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "comments": [],
+                    "likers": []
+                },
+                "type": "message",
+                "EID": "4801f8613a081894",
+                "created": "2022-10-20T12:32:03.820+00:00",
+                "lastModified": "2022-10-20T12:32:03.820+00:00",
+                "messageType": "news",
+                "status": "published",
+                "title": "Important news from Catty The Cat",
+                "body": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+                "htmlBody": "<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>",
+                "numRecipients": 1,
+                "numReaders": 2,
+                "numAttachments": 0,
+                "numVideos": 0,
+                "numComments": 0,
+                "numLikes": 0,
+                "commentable": true,
+                "acknowledgeable": false,
+                "mentions": [],
+                "headerBackgroundUrl": "https://static.test.speakap.nl/img/covers/default-news-cover.jpg",
+                "reactionStats": [],
+                "_user": {
+                    "read": false,
+                    "hasLiked": false,
+                    "subscribed": false,
+                    "permissions": "comment,delete,like,view_readers"
+                }
+            },
+            {
+                "author": {
+                    "EID": "417cd338fb081f4c",
+                    "type": "user"
+                },
+                "lastEditor": {
+                    "EID": "417cd338fb081f4c",
+                    "type": "user"
+                },
+                "_embedded": {
+                    "author": {
+                        "network": {
+                            "EID": "25975f8b81000eb4",
+                            "type": "network"
+                        },
+                        "account": {
+                            "EID": "417cd3391f000e60",
+                            "type": "user"
+                        },
+                        "avatar": {
+                            "EID": "417cd4cee008139c",
+                            "type": "message"
+                        },
+                        "type": "user",
+                        "EID": "417cd338fb081f4c",
+                        "emailAddresses": [
+                            {
+                                "value": "gennadii.belogortcev@speakap.nl",
+                                "primary": true,
+                                "confirmed": true,
+                                "hidden": true
+                            }
+                        ],
+                        "fullName": "gennadii belogortcev",
+                        "languages": [],
+                        "telephoneNumbers": [
+                            {
+                                "label": "internal",
+                                "value": "123123",
+                                "iddCode": ""
+                            }
+                        ],
+                        "avatarThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/default-avatar/417cd338fb081f4c/thumbnail?modified=1659686302",
+                        "headerBackgroundUrl": "",
+                        "deleted": false,
+                        "external": false,
+                        "_user": {
+                            "permissions": ""
+                        }
+                    },
+                    "recipients": [
+                        {
+                            "rootFolder": {
+                                "EID": "25975f8b8908155c",
+                                "type": "message"
+                            },
+                            "emblem": {
+                                "EID": "31e627f4350813e4",
+                                "type": "message"
+                            },
+                            "favicon": {
+                                "EID": "31e6290f89081c5c",
+                                "type": "message"
+                            },
+                            "userProfile": {
+                                "EID": "417cd338fb081f4c",
+                                "type": "user"
+                            },
+                            "type": "network",
+                            "EID": "25975f8b81000eb4",
+                            "name": "Uniqlo",
+                            "emblemThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/31e627f4350813e4/thumbnail",
+                            "_user": {
+                                "numUnreadConversations": 0,
+                                "numUnreadNewsItems": 3,
+                                "numAdminAlerts": 0,
+                                "numUnreadAlertsCoalesced": 21,
+                                "numUnrespondedEvents": 0,
+                                "numNewTasks": 0,
+                                "profileEID": "417cd338fb081f4c",
+                                "permissions": "post_news,edit_network,create_group_public,create_group_restricted,create_group_private,create_group_secret,edit_network_widgets,edit_spotlight,edit_network_theme,assign_role,network_invite_user,delete_network_membership,edit_network_settings,create_role,edit_role,delete_role,assign_admin_role,install_app,add_edit_files,add_edit_folders,manage_files,view_network_messages,network_invite_external_user,post_to_network,access_network_users,access_network_groups,manage_user_groups,post_news_to_all_groups,manage_organization_structure,access_all_business_units,browse_files,customize_network_invite,arrange_widgets,post_updates_to_all_groups,manage_user_redeemable_codes,post_events_to_all_groups,post_events_to_network,edit_terms_and_conditions,pin_message,post_polls_to_network,post_polls_to_all_groups,delete_poll,access_statistics,view_user_activity,edit_network_pages,edit_menu_items,post_pages_to_network,post_pages_to_any_group,edit_page,delete_page,manage_journeys,manage_individual_tasks,manage_group_tasks,edit_profile_xid",
+                                "member": true,
+                                "track": {
+                                    "mixpanel": {
+                                        "tracking": false
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "comments": [],
+                    "likers": [],
+                    "attendees": [
+                        {
+                            "network": {
+                                "EID": "25975f8b81000eb4",
+                                "type": "network"
+                            },
+                            "account": {
+                                "EID": "417cd3391f000e60",
+                                "type": "user"
+                            },
+                            "avatar": {
+                                "EID": "417cd4cee008139c",
+                                "type": "message"
+                            },
+                            "type": "user",
+                            "EID": "417cd338fb081f4c",
+                            "emailAddresses": [
+                                {
+                                    "value": "gennadii.belogortcev@speakap.nl",
+                                    "primary": true,
+                                    "confirmed": true
+                                }
+                            ],
+                            "fullName": "gennadii belogortcev",
+                            "languages": [],
+                            "telephoneNumbers": [
+                                {
+                                    "label": "internal",
+                                    "value": "123123",
+                                    "iddCode": ""
+                                }
+                            ],
+                            "avatarThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/default-avatar/417cd338fb081f4c/thumbnail?modified=1659686302",
+                            "headerBackgroundUrl": "",
+                            "deleted": false,
+                            "external": false,
+                            "_user": {
+                                "permissions": ""
+                            },
+                            "_meta": {
+                                "rsvp": "yes"
+                            }
+                        }
+                    ]
+                },
+                "type": "message",
+                "EID": "4801f71b520813d4",
+                "created": "2022-10-20T12:30:16.840+00:00",
+                "lastModified": "2022-10-20T12:34:09.596+00:00",
+                "lastEdited": "2022-10-20T12:34:09.596+00:00",
+                "messageType": "event",
+                "title": "Awesome event, don't miss it!",
+                "body": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. .",
+                "htmlBody": "<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. .</p>",
+                "numRecipients": 1,
+                "numAttachments": 0,
+                "numComments": 0,
+                "numLikes": 0,
+                "commentable": true,
+                "event": {
+                    "location": {
+                        "description": "Cattyburg"
+                    },
+                    "start": {
+                        "date": "2022-10-22",
+                        "time": "15:00",
+                        "timeZone": "Europe/Amsterdam",
+                        "timeZoneOffset": "+02:00"
+                    },
+                    "end": {
+                        "date": "2022-10-22",
+                        "time": "16:00",
+                        "timeZone": "Europe/Amsterdam",
+                        "timeZoneOffset": "+02:00"
+                    },
+                    "allDay": false,
+                    "responderCounts": {
+                        "yes": 1,
+                        "no": 0,
+                        "maybe": 0,
+                        "unspecified": 349
+                    },
+                    "canceled": false
+                },
+                "mentions": [],
+                "headerBackgroundUrl": "https://static.test.speakap.nl/img/covers/default-event-cover.jpg",
+                "reactionStats": [],
+                "_user": {
+                    "hasLiked": false,
+                    "rsvp": "yes",
+                    "subscribed": true,
+                    "permissions": "comment,delete,edit,like,rsvp,cancel",
+                    "reminders": [
+                        {
+                            "EID": "4801f71ba2000de0",
+                            "minutesBefore": 10
+                        }
+                    ]
+                }
+            },
+            {
+                "author": {
+                    "EID": "43053b330e081f40",
+                    "type": "user"
+                },
+                "recipient": {
+                    "EID": "25975f8b81000eb4",
+                    "type": "network",
+                    "name": "network"
+                },
+                "_embedded": {
+                    "author": {
+                        "network": {
+                            "EID": "25975f8b81000eb4",
+                            "type": "network"
+                        },
+                        "avatar": {
+                            "EID": "4801f3a9620813d0",
+                            "type": "message"
+                        },
+                        "type": "user",
+                        "EID": "43053b330e081f40",
+                        "emailAddresses": [
+                            {
+                                "value": "gennadii.belogortcev+member@speakap.nl",
+                                "primary": true,
+                                "confirmed": true,
+                                "hidden": true
+                            }
+                        ],
+                        "fullName": "Matt Dog",
+                        "languages": [],
+                        "telephoneNumbers": [],
+                        "avatarThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/4801f3a9620813d0/thumbnail",
+                        "headerBackgroundUrl": "",
+                        "deleted": false,
+                        "external": false,
+                        "_user": {
+                            "permissions": ""
+                        }
+                    },
+                    "recipient": {
+                        "rootFolder": {
+                            "EID": "25975f8b8908155c",
+                            "type": "message"
+                        },
+                        "emblem": {
+                            "EID": "31e627f4350813e4",
+                            "type": "message"
+                        },
+                        "favicon": {
+                            "EID": "31e6290f89081c5c",
+                            "type": "message"
+                        },
+                        "userProfile": {
+                            "EID": "417cd338fb081f4c",
+                            "type": "user"
+                        },
+                        "type": "network",
+                        "EID": "25975f8b81000eb4",
+                        "name": "Uniqlo",
+                        "emblemThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/31e627f4350813e4/thumbnail",
+                        "_user": {
+                            "numUnreadConversations": 0,
+                            "numUnreadNewsItems": 3,
+                            "numAdminAlerts": 0,
+                            "numUnreadAlertsCoalesced": 21,
+                            "numUnrespondedEvents": 0,
+                            "numNewTasks": 0,
+                            "profileEID": "417cd338fb081f4c",
+                            "permissions": "post_news,edit_network,create_group_public,create_group_restricted,create_group_private,create_group_secret,edit_network_widgets,edit_spotlight,edit_network_theme,assign_role,network_invite_user,delete_network_membership,edit_network_settings,create_role,edit_role,delete_role,assign_admin_role,install_app,add_edit_files,add_edit_folders,manage_files,view_network_messages,network_invite_external_user,post_to_network,access_network_users,access_network_groups,manage_user_groups,post_news_to_all_groups,manage_organization_structure,access_all_business_units,browse_files,customize_network_invite,arrange_widgets,post_updates_to_all_groups,manage_user_redeemable_codes,post_events_to_all_groups,post_events_to_network,edit_terms_and_conditions,pin_message,post_polls_to_network,post_polls_to_all_groups,delete_poll,access_statistics,view_user_activity,edit_network_pages,edit_menu_items,post_pages_to_network,post_pages_to_any_group,edit_page,delete_page,manage_journeys,manage_individual_tasks,manage_group_tasks,edit_profile_xid",
+                            "member": true,
+                            "track": {
+                                "mixpanel": {
+                                    "tracking": false
+                                }
+                            }
+                        }
+                    },
+                    "comments": [],
+                    "likers": []
+                },
+                "type": "message",
+                "EID": "4801f153be081874",
+                "created": "2022-10-20T12:23:58.096+00:00",
                 "messageType": "poll",
-                "title": "Tohid's poll",
-                "body": "",
+                "title": "Here is a very serious poll you need to vote",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
                 "numRecipients": 1,
                 "numAttachments": 0,
                 "numComments": 0,
@@ -43,15 +604,22 @@
                 "ended": false,
                 "answers": [
                     {
-                        "EID": "47de0669e60009d4",
-                        "title": "Option 1",
+                        "EID": "4801f153bc000360",
+                        "title": "options namba van",
                         "numVotes": 0,
                         "percentageVotes": 0,
                         "hasUserVoted": false
                     },
                     {
-                        "EID": "47de0669e7000dc4",
-                        "title": "Option 2",
+                        "EID": "4801f153bd00050c",
+                        "title": "options namba too",
+                        "numVotes": 0,
+                        "percentageVotes": 0,
+                        "hasUserVoted": false
+                    },
+                    {
+                        "EID": "4801f153bd000f54",
+                        "title": "heeheeeee",
                         "numVotes": 0,
                         "percentageVotes": 0,
                         "hasUserVoted": false
@@ -59,58 +627,108 @@
                 ],
                 "numVotes": 0,
                 "_user": {
+                    "hasLiked": false,
                     "subscribed": false,
                     "permissions": "comment,delete,like,vote",
                     "hasVoted": false
                 }
             },
             {
-                "_links": {
-                    "self": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cd67f8e0dcea8\/"
-                    },
+                "author": {
+                    "EID": "43053b330e081f40",
+                    "type": "user"
+                },
+                "recipient": {
+                    "EID": "25975f8b81000eb4",
+                    "type": "network",
+                    "name": "network"
+                },
+                "lastEditor": {
+                    "EID": "43053b330e081f40",
+                    "type": "user"
+                },
+                "_embedded": {
                     "author": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/users\/46bd956a510dc660\/"
+                        "network": {
+                            "EID": "25975f8b81000eb4",
+                            "type": "network"
+                        },
+                        "avatar": {
+                            "EID": "4801f3a9620813d0",
+                            "type": "message"
+                        },
+                        "type": "user",
+                        "EID": "43053b330e081f40",
+                        "emailAddresses": [
+                            {
+                                "value": "gennadii.belogortcev+member@speakap.nl",
+                                "primary": true,
+                                "confirmed": true,
+                                "hidden": true
+                            }
+                        ],
+                        "fullName": "Matt Dog",
+                        "languages": [],
+                        "telephoneNumbers": [],
+                        "avatarThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/4801f3a9620813d0/thumbnail",
+                        "headerBackgroundUrl": "",
+                        "deleted": false,
+                        "external": false,
+                        "_user": {
+                            "permissions": ""
+                        }
                     },
                     "recipient": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/",
-                        "name": "network"
-                    },
-                    "comments": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/?parent=476cd67f8e0dcea8"
-                    },
-                    "like": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cd67f8e0dcea8\/like"
-                    },
-                    "likers": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cd67f8e0dcea8\/likers\/"
-                    },
-                    "images": [
-                        {
-                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cd674910dcbb8\/"
+                        "rootFolder": {
+                            "EID": "25975f8b8908155c",
+                            "type": "message"
                         },
-                        {
-                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cd674b50dcad8\/"
+                        "emblem": {
+                            "EID": "31e627f4350813e4",
+                            "type": "message"
                         },
-                        {
-                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cd6745b0dc120\/"
+                        "favicon": {
+                            "EID": "31e6290f89081c5c",
+                            "type": "message"
                         },
-                        {
-                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cd672e60dc88c\/"
+                        "userProfile": {
+                            "EID": "417cd338fb081f4c",
+                            "type": "user"
                         },
-                        {
-                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cd674980dc260\/"
+                        "type": "network",
+                        "EID": "25975f8b81000eb4",
+                        "name": "Uniqlo",
+                        "emblemThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/31e627f4350813e4/thumbnail",
+                        "_user": {
+                            "numUnreadConversations": 0,
+                            "numUnreadNewsItems": 3,
+                            "numAdminAlerts": 0,
+                            "numUnreadAlertsCoalesced": 21,
+                            "numUnrespondedEvents": 0,
+                            "numNewTasks": 0,
+                            "profileEID": "417cd338fb081f4c",
+                            "permissions": "post_news,edit_network,create_group_public,create_group_restricted,create_group_private,create_group_secret,edit_network_widgets,edit_spotlight,edit_network_theme,assign_role,network_invite_user,delete_network_membership,edit_network_settings,create_role,edit_role,delete_role,assign_admin_role,install_app,add_edit_files,add_edit_folders,manage_files,view_network_messages,network_invite_external_user,post_to_network,access_network_users,access_network_groups,manage_user_groups,post_news_to_all_groups,manage_organization_structure,access_all_business_units,browse_files,customize_network_invite,arrange_widgets,post_updates_to_all_groups,manage_user_redeemable_codes,post_events_to_all_groups,post_events_to_network,edit_terms_and_conditions,pin_message,post_polls_to_network,post_polls_to_all_groups,delete_poll,access_statistics,view_user_activity,edit_network_pages,edit_menu_items,post_pages_to_network,post_pages_to_any_group,edit_page,delete_page,manage_journeys,manage_individual_tasks,manage_group_tasks,edit_profile_xid",
+                            "member": true,
+                            "track": {
+                                "mixpanel": {
+                                    "tracking": false
+                                }
+                            }
                         }
-                    ]
+                    },
+                    "comments": [],
+                    "likers": []
                 },
                 "type": "message",
-                "EID": "476cd67f8e0dcea8",
-                "created": "2022-09-21T13:31:14.643+00:00",
+                "EID": "4801f02818081cf8",
+                "created": "2022-10-20T12:22:41.376+00:00",
+                "lastModified": "2022-10-20T12:25:46.743+00:00",
+                "lastEdited": "2022-10-20T12:25:46.743+00:00",
                 "messageType": "update",
                 "superseded": false,
-                "body": "",
+                "body": "Here is my update: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
                 "numRecipients": 1,
-                "numImages": 5,
+                "numImages": 0,
                 "numVideos": 0,
                 "numFiles": 0,
                 "numComments": 0,
@@ -118,202 +736,578 @@
                 "commentable": true,
                 "reactionStats": [],
                 "_user": {
+                    "hasLiked": false,
                     "subscribed": false,
                     "permissions": "comment,delete,like"
                 }
             },
             {
-                "_links": {
-                    "self": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cb905440dc948\/"
-                    },
-                    "author": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/users\/46bd956a510dc660\/"
-                    },
-                    "recipient": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/groups\/23d17750db0dcc34\/",
-                        "name": "group"
-                    },
-                    "comments": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/?parent=476cb905440dc948"
-                    },
-                    "like": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cb905440dc948\/like"
-                    },
-                    "likers": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cb905440dc948\/likers\/"
-                    },
-                    "images": [
-                        {
-                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cb8fe6e0dc3d0\/"
-                        }
-                    ]
+                "author": {
+                    "EID": "474429cf0e08124c",
+                    "type": "user"
                 },
-                "type": "message",
-                "EID": "476cb905440dc948",
-                "created": "2022-09-21T12:59:02.802+00:00",
-                "messageType": "update",
-                "superseded": false,
-                "body": "",
-                "numRecipients": 1,
-                "numImages": 1,
-                "numVideos": 0,
-                "numFiles": 0,
-                "numComments": 0,
-                "numLikes": 0,
-                "commentable": true,
-                "reactionStats": [],
-                "_user": {
-                    "subscribed": false,
-                    "permissions": "comment,delete,like"
-                }
-            },
-            {
-                "_links": {
-                    "self": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cac7e6b0dc6d4\/"
-                    },
+                "recipient": {
+                    "EID": "25975f8b81000eb4",
+                    "type": "network",
+                    "name": "network"
+                },
+                "lastEditor": {
+                    "EID": "474429cf0e08124c",
+                    "type": "user"
+                },
+                "_embedded": {
                     "author": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/users\/46bd956a510dc660\/"
-                    },
-                    "recipient": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/",
-                        "name": "network"
-                    },
-                    "comments": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/?parent=476cac7e6b0dc6d4"
-                    },
-                    "like": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cac7e6b0dc6d4\/like"
-                    },
-                    "likers": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cac7e6b0dc6d4\/likers\/"
-                    },
-                    "images": [
-                        {
-                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cabcd440dcbb0\/"
+                        "network": {
+                            "EID": "25975f8b81000eb4",
+                            "type": "network"
                         },
-                        {
-                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cac008d0dc5e8\/"
+                        "avatar": {
+                            "EID": "4790dc34ca08148c",
+                            "type": "message"
                         },
-                        {
-                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cac008e0dc110\/"
+                        "type": "user",
+                        "EID": "474429cf0e08124c",
+                        "emailAddresses": [
+                            {
+                                "value": "yang.chen@speakap.nl",
+                                "primary": true,
+                                "confirmed": true,
+                                "hidden": true
+                            }
+                        ],
+                        "fullName": "Yang C",
+                        "languages": [],
+                        "telephoneNumbers": [],
+                        "avatarThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/default-avatar/474429cf0e08124c/thumbnail?modified=1663084668",
+                        "headerBackgroundUrl": "",
+                        "deleted": false,
+                        "external": false,
+                        "_user": {
+                            "permissions": ""
                         }
-                    ]
-                },
-                "type": "message",
-                "EID": "476cac7e6b0dc6d4",
-                "created": "2022-09-21T12:45:21.842+00:00",
-                "messageType": "update",
-                "superseded": false,
-                "body": "",
-                "numRecipients": 1,
-                "numImages": 3,
-                "numVideos": 0,
-                "numFiles": 0,
-                "numComments": 0,
-                "numLikes": 0,
-                "commentable": true,
-                "reactionStats": [],
-                "_user": {
-                    "subscribed": false,
-                    "permissions": "comment,delete,like"
-                }
-            },
-            {
-                "_links": {
-                    "self": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/4767a8274a0dcf38\/"
-                    },
-                    "author": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/users\/46bd956a510dc660\/"
                     },
                     "recipient": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/",
-                        "name": "network"
+                        "rootFolder": {
+                            "EID": "25975f8b8908155c",
+                            "type": "message"
+                        },
+                        "emblem": {
+                            "EID": "31e627f4350813e4",
+                            "type": "message"
+                        },
+                        "favicon": {
+                            "EID": "31e6290f89081c5c",
+                            "type": "message"
+                        },
+                        "userProfile": {
+                            "EID": "417cd338fb081f4c",
+                            "type": "user"
+                        },
+                        "type": "network",
+                        "EID": "25975f8b81000eb4",
+                        "name": "Uniqlo",
+                        "emblemThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/31e627f4350813e4/thumbnail",
+                        "_user": {
+                            "numUnreadConversations": 0,
+                            "numUnreadNewsItems": 3,
+                            "numAdminAlerts": 0,
+                            "numUnreadAlertsCoalesced": 21,
+                            "numUnrespondedEvents": 0,
+                            "numNewTasks": 0,
+                            "profileEID": "417cd338fb081f4c",
+                            "permissions": "post_news,edit_network,create_group_public,create_group_restricted,create_group_private,create_group_secret,edit_network_widgets,edit_spotlight,edit_network_theme,assign_role,network_invite_user,delete_network_membership,edit_network_settings,create_role,edit_role,delete_role,assign_admin_role,install_app,add_edit_files,add_edit_folders,manage_files,view_network_messages,network_invite_external_user,post_to_network,access_network_users,access_network_groups,manage_user_groups,post_news_to_all_groups,manage_organization_structure,access_all_business_units,browse_files,customize_network_invite,arrange_widgets,post_updates_to_all_groups,manage_user_redeemable_codes,post_events_to_all_groups,post_events_to_network,edit_terms_and_conditions,pin_message,post_polls_to_network,post_polls_to_all_groups,delete_poll,access_statistics,view_user_activity,edit_network_pages,edit_menu_items,post_pages_to_network,post_pages_to_any_group,edit_page,delete_page,manage_journeys,manage_individual_tasks,manage_group_tasks,edit_profile_xid",
+                            "member": true,
+                            "track": {
+                                "mixpanel": {
+                                    "tracking": false
+                                }
+                            }
+                        }
                     },
-                    "comments": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/?parent=4767a8274a0dcf38"
-                    },
-                    "like": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/4767a8274a0dcf38\/like"
-                    },
-                    "likers": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/4767a8274a0dcf38\/likers\/"
-                    },
-                    "images": [
+                    "comments": [],
+                    "likers": [
                         {
-                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/4767a809a30dcd9c\/"
+                            "network": {
+                                "EID": "25975f8b81000eb4",
+                                "type": "network"
+                            },
+                            "account": {
+                                "EID": "417cd3391f000e60",
+                                "type": "user"
+                            },
+                            "avatar": {
+                                "EID": "417cd4cee008139c",
+                                "type": "message"
+                            },
+                            "type": "user",
+                            "EID": "417cd338fb081f4c",
+                            "emailAddresses": [
+                                {
+                                    "value": "gennadii.belogortcev@speakap.nl",
+                                    "primary": true,
+                                    "confirmed": true,
+                                    "hidden": true
+                                }
+                            ],
+                            "fullName": "gennadii belogortcev",
+                            "languages": [],
+                            "telephoneNumbers": [
+                                {
+                                    "label": "internal",
+                                    "value": "123123",
+                                    "iddCode": ""
+                                }
+                            ],
+                            "avatarThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/default-avatar/417cd338fb081f4c/thumbnail?modified=1659686302",
+                            "headerBackgroundUrl": "",
+                            "deleted": false,
+                            "external": false,
+                            "_user": {
+                                "permissions": ""
+                            },
+                            "_meta": {
+                                "liked": "2022-10-20T10:48:45.061+00:00"
+                            }
                         }
                     ]
                 },
                 "type": "message",
-                "EID": "4767a8274a0dcf38",
-                "created": "2022-09-20T13:22:31.279+00:00",
+                "EID": "47fc19bdcf081284",
+                "created": "2022-10-19T09:10:23.395+00:00",
+                "lastModified": "2022-10-19T10:33:23.283+00:00",
+                "lastEdited": "2022-10-19T10:33:23.283+00:00",
                 "messageType": "update",
                 "superseded": false,
-                "body": "",
+                "body": "Hi there!\n\nGerman: Indem wir intern eine erste Version der Verwaltungsansicht in Journeys in Betrieb nehmen, hoffen wir, so viel Feedback wie möglich zu erhalten. Zur Erinnerung: \"Journeys\" ist ein neues Tool, das von unseren Kunden für verschiedene Zwecke genutzt werden kann, unter anderem für das Onboarding.\n\n",
                 "numRecipients": 1,
-                "numImages": 1,
+                "numImages": 0,
                 "numVideos": 0,
                 "numFiles": 0,
                 "numComments": 0,
-                "numLikes": 0,
+                "numLikes": 1,
                 "commentable": true,
-                "reactionStats": [],
-                "_user": {
-                    "subscribed": false,
-                    "permissions": "comment,delete,like"
-                }
-            },
-            {
-                "_links": {
-                    "self": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/4728a5631b0dc514\/"
-                    },
-                    "author": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/users\/46749fcbdc0dcbfc\/"
-                    },
-                    "recipients": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/4728a5631b0dc514\/recipients\/?sort%5B_user.member%5D=true%2Cfalse&sort%5Bname%5D=asc"
-                    },
-                    "comments": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/?parent=4728a5631b0dc514"
-                    },
-                    "like": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/4728a5631b0dc514\/like"
-                    },
-                    "likers": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/4728a5631b0dc514\/likers\/"
-                    },
-                    "lastEditor": {
-                        "href": "\/networks\/08e1e1eadc000e6c\/users\/46749fcbdc0dcbfc\/"
+                "reactionStats": [
+                    {
+                        "type": "like",
+                        "amount": 1
                     }
+                ],
+                "_user": {
+                    "hasLiked": true,
+                    "subscribed": false,
+                    "permissions": "comment,delete,like",
+                    "reactionType": "like"
+                }
+            },
+            {
+                "author": {
+                    "EID": "4208132e5d081538",
+                    "type": "user"
+                },
+                "recipient": {
+                    "EID": "25975f8b81000eb4",
+                    "type": "network",
+                    "name": "network"
+                },
+                "_embedded": {
+                    "author": {
+                        "network": {
+                            "EID": "25975f8b81000eb4",
+                            "type": "network"
+                        },
+                        "avatar": {
+                            "EID": "420857f8d508121c",
+                            "type": "message"
+                        },
+                        "type": "user",
+                        "EID": "4208132e5d081538",
+                        "emailAddresses": [
+                            {
+                                "value": "tohid.dadashnejad@speakap.nl",
+                                "primary": true,
+                                "confirmed": true,
+                                "hidden": true
+                            }
+                        ],
+                        "fullName": "Tohid Dadashnejad",
+                        "languages": [],
+                        "telephoneNumbers": [],
+                        "avatarThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/default-avatar/4208132e5d081538/thumbnail?modified=1640606223",
+                        "headerBackgroundUrl": "",
+                        "deleted": false,
+                        "external": false,
+                        "_user": {
+                            "permissions": ""
+                        }
+                    },
+                    "recipient": {
+                        "rootFolder": {
+                            "EID": "25975f8b8908155c",
+                            "type": "message"
+                        },
+                        "emblem": {
+                            "EID": "31e627f4350813e4",
+                            "type": "message"
+                        },
+                        "favicon": {
+                            "EID": "31e6290f89081c5c",
+                            "type": "message"
+                        },
+                        "userProfile": {
+                            "EID": "417cd338fb081f4c",
+                            "type": "user"
+                        },
+                        "type": "network",
+                        "EID": "25975f8b81000eb4",
+                        "name": "Uniqlo",
+                        "emblemThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/31e627f4350813e4/thumbnail",
+                        "_user": {
+                            "numUnreadConversations": 0,
+                            "numUnreadNewsItems": 3,
+                            "numAdminAlerts": 0,
+                            "numUnreadAlertsCoalesced": 21,
+                            "numUnrespondedEvents": 0,
+                            "numNewTasks": 0,
+                            "profileEID": "417cd338fb081f4c",
+                            "permissions": "post_news,edit_network,create_group_public,create_group_restricted,create_group_private,create_group_secret,edit_network_widgets,edit_spotlight,edit_network_theme,assign_role,network_invite_user,delete_network_membership,edit_network_settings,create_role,edit_role,delete_role,assign_admin_role,install_app,add_edit_files,add_edit_folders,manage_files,view_network_messages,network_invite_external_user,post_to_network,access_network_users,access_network_groups,manage_user_groups,post_news_to_all_groups,manage_organization_structure,access_all_business_units,browse_files,customize_network_invite,arrange_widgets,post_updates_to_all_groups,manage_user_redeemable_codes,post_events_to_all_groups,post_events_to_network,edit_terms_and_conditions,pin_message,post_polls_to_network,post_polls_to_all_groups,delete_poll,access_statistics,view_user_activity,edit_network_pages,edit_menu_items,post_pages_to_network,post_pages_to_any_group,edit_page,delete_page,manage_journeys,manage_individual_tasks,manage_group_tasks,edit_profile_xid",
+                            "member": true,
+                            "track": {
+                                "mixpanel": {
+                                    "tracking": false
+                                }
+                            }
+                        }
+                    },
+                    "comments": [],
+                    "likers": [
+                        {
+                            "network": {
+                                "EID": "25975f8b81000eb4",
+                                "type": "network"
+                            },
+                            "account": {
+                                "EID": "417cd3391f000e60",
+                                "type": "user"
+                            },
+                            "avatar": {
+                                "EID": "417cd4cee008139c",
+                                "type": "message"
+                            },
+                            "type": "user",
+                            "EID": "417cd338fb081f4c",
+                            "emailAddresses": [
+                                {
+                                    "value": "gennadii.belogortcev@speakap.nl",
+                                    "primary": true,
+                                    "confirmed": true,
+                                    "hidden": true
+                                }
+                            ],
+                            "fullName": "gennadii belogortcev",
+                            "languages": [],
+                            "telephoneNumbers": [
+                                {
+                                    "label": "internal",
+                                    "value": "123123",
+                                    "iddCode": ""
+                                }
+                            ],
+                            "avatarThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/default-avatar/417cd338fb081f4c/thumbnail?modified=1659686302",
+                            "headerBackgroundUrl": "",
+                            "deleted": false,
+                            "external": false,
+                            "_user": {
+                                "permissions": ""
+                            },
+                            "_meta": {
+                                "liked": "2022-10-20T10:48:41.601+00:00"
+                            }
+                        },
+                        {
+                            "network": {
+                                "EID": "25975f8b81000eb4",
+                                "type": "network"
+                            },
+                            "avatar": {
+                                "EID": "26a7890d5d0819f8",
+                                "type": "message"
+                            },
+                            "type": "user",
+                            "EID": "26a78770db0810f8",
+                            "emailAddresses": [
+                                {
+                                    "value": "remmelt.koenes@speakap.nl",
+                                    "primary": true,
+                                    "confirmed": true,
+                                    "hidden": true
+                                }
+                            ],
+                            "fullName": "Remmelt Koenes",
+                            "languages": [],
+                            "telephoneNumbers": [],
+                            "avatarThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/default-avatar/26a78770db0810f8/thumbnail?modified=1666268497",
+                            "headerBackgroundUrl": "",
+                            "jobTitle": "",
+                            "deleted": false,
+                            "external": false,
+                            "_user": {
+                                "permissions": ""
+                            },
+                            "_meta": {
+                                "liked": "2022-10-18T13:42:52.324+00:00"
+                            }
+                        }
+                    ]
                 },
                 "type": "message",
-                "EID": "4728a5631b0dc514",
-                "created": "2022-09-08T07:43:30.142+00:00",
-                "lastModified": "2022-09-21T09:40:42.125+00:00",
-                "lastEdited": "2022-09-21T09:40:42.125+00:00",
+                "EID": "47f703435a081264",
+                "created": "2022-10-18T09:27:43.949+00:00",
+                "messageType": "update",
+                "superseded": false,
+                "body": "Second update for testing ES",
+                "numRecipients": 1,
+                "numImages": 0,
+                "numVideos": 0,
+                "numFiles": 0,
+                "numComments": 0,
+                "numLikes": 2,
+                "commentable": true,
+                "reactionStats": [
+                    {
+                        "type": "like",
+                        "amount": 2
+                    }
+                ],
+                "_user": {
+                    "hasLiked": true,
+                    "subscribed": false,
+                    "permissions": "comment,delete,like",
+                    "reactionType": "like"
+                }
+            },
+            {
+                "author": {
+                    "EID": "4208132e5d081538",
+                    "type": "user"
+                },
+                "recipient": {
+                    "EID": "25975f8b81000eb4",
+                    "type": "network",
+                    "name": "network"
+                },
+                "_embedded": {
+                    "author": {
+                        "network": {
+                            "EID": "25975f8b81000eb4",
+                            "type": "network"
+                        },
+                        "avatar": {
+                            "EID": "420857f8d508121c",
+                            "type": "message"
+                        },
+                        "type": "user",
+                        "EID": "4208132e5d081538",
+                        "emailAddresses": [
+                            {
+                                "value": "tohid.dadashnejad@speakap.nl",
+                                "primary": true,
+                                "confirmed": true,
+                                "hidden": true
+                            }
+                        ],
+                        "fullName": "Tohid Dadashnejad",
+                        "languages": [],
+                        "telephoneNumbers": [],
+                        "avatarThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/default-avatar/4208132e5d081538/thumbnail?modified=1640606223",
+                        "headerBackgroundUrl": "",
+                        "deleted": false,
+                        "external": false,
+                        "_user": {
+                            "permissions": ""
+                        }
+                    },
+                    "recipient": {
+                        "rootFolder": {
+                            "EID": "25975f8b8908155c",
+                            "type": "message"
+                        },
+                        "emblem": {
+                            "EID": "31e627f4350813e4",
+                            "type": "message"
+                        },
+                        "favicon": {
+                            "EID": "31e6290f89081c5c",
+                            "type": "message"
+                        },
+                        "userProfile": {
+                            "EID": "417cd338fb081f4c",
+                            "type": "user"
+                        },
+                        "type": "network",
+                        "EID": "25975f8b81000eb4",
+                        "name": "Uniqlo",
+                        "emblemThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/31e627f4350813e4/thumbnail",
+                        "_user": {
+                            "numUnreadConversations": 0,
+                            "numUnreadNewsItems": 3,
+                            "numAdminAlerts": 0,
+                            "numUnreadAlertsCoalesced": 21,
+                            "numUnrespondedEvents": 0,
+                            "numNewTasks": 0,
+                            "profileEID": "417cd338fb081f4c",
+                            "permissions": "post_news,edit_network,create_group_public,create_group_restricted,create_group_private,create_group_secret,edit_network_widgets,edit_spotlight,edit_network_theme,assign_role,network_invite_user,delete_network_membership,edit_network_settings,create_role,edit_role,delete_role,assign_admin_role,install_app,add_edit_files,add_edit_folders,manage_files,view_network_messages,network_invite_external_user,post_to_network,access_network_users,access_network_groups,manage_user_groups,post_news_to_all_groups,manage_organization_structure,access_all_business_units,browse_files,customize_network_invite,arrange_widgets,post_updates_to_all_groups,manage_user_redeemable_codes,post_events_to_all_groups,post_events_to_network,edit_terms_and_conditions,pin_message,post_polls_to_network,post_polls_to_all_groups,delete_poll,access_statistics,view_user_activity,edit_network_pages,edit_menu_items,post_pages_to_network,post_pages_to_any_group,edit_page,delete_page,manage_journeys,manage_individual_tasks,manage_group_tasks,edit_profile_xid",
+                            "member": true,
+                            "track": {
+                                "mixpanel": {
+                                    "tracking": false
+                                }
+                            }
+                        }
+                    },
+                    "comments": [],
+                    "likers": []
+                },
+                "type": "message",
+                "EID": "47f6fdafb8081868",
+                "created": "2022-10-18T09:21:38.465+00:00",
+                "messageType": "update",
+                "superseded": false,
+                "body": "Update for testing ES",
+                "numRecipients": 1,
+                "numImages": 0,
+                "numVideos": 0,
+                "numFiles": 0,
+                "numComments": 0,
+                "numLikes": 0,
+                "commentable": true,
+                "reactionStats": [],
+                "_user": {
+                    "hasLiked": false,
+                    "subscribed": false,
+                    "permissions": "comment,delete,like"
+                }
+            },
+            {
+                "author": {
+                    "EID": "2f1a9c0b59081b54",
+                    "type": "user"
+                },
+                "lastEditor": {
+                    "EID": "2f1a9c0b59081b54",
+                    "type": "user"
+                },
+                "_embedded": {
+                    "author": {
+                        "network": {
+                            "EID": "25975f8b81000eb4",
+                            "type": "network"
+                        },
+                        "avatar": {
+                            "EID": "2f1a9cb56008187c",
+                            "type": "message"
+                        },
+                        "type": "user",
+                        "EID": "2f1a9c0b59081b54",
+                        "emailAddresses": [
+                            {
+                                "value": "paulo.goularte+5@speakap.nl",
+                                "primary": true,
+                                "confirmed": true,
+                                "hidden": true
+                            },
+                            {
+                                "label": "work",
+                                "value": "paulohgv@gmail.com",
+                                "confirmed": false
+                            }
+                        ],
+                        "fullName": "Paulo +5 test Vicente",
+                        "languages": [
+                            "es"
+                        ],
+                        "telephoneNumbers": [
+                            {
+                                "label": "home",
+                                "value": "625420356",
+                                "iddCode": "31"
+                            }
+                        ],
+                        "avatarThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/default-avatar/2f1a9c0b59081b54/thumbnail?modified=1648547267",
+                        "headerBackgroundUrl": "",
+                        "jobTitle": "Manager at Dürr Körber* 22! & Product @wner ^ Fant",
+                        "deleted": false,
+                        "external": false,
+                        "_user": {
+                            "permissions": ""
+                        }
+                    },
+                    "recipients": [
+                        {
+                            "rootFolder": {
+                                "EID": "25975f8b8908155c",
+                                "type": "message"
+                            },
+                            "emblem": {
+                                "EID": "31e627f4350813e4",
+                                "type": "message"
+                            },
+                            "favicon": {
+                                "EID": "31e6290f89081c5c",
+                                "type": "message"
+                            },
+                            "userProfile": {
+                                "EID": "417cd338fb081f4c",
+                                "type": "user"
+                            },
+                            "type": "network",
+                            "EID": "25975f8b81000eb4",
+                            "name": "Uniqlo",
+                            "emblemThumbnailUrl": "https://ikotyk4.test3.speakap.nl/files/31e627f4350813e4/thumbnail",
+                            "_user": {
+                                "numUnreadConversations": 0,
+                                "numUnreadNewsItems": 3,
+                                "numAdminAlerts": 0,
+                                "numUnreadAlertsCoalesced": 21,
+                                "numUnrespondedEvents": 0,
+                                "numNewTasks": 0,
+                                "profileEID": "417cd338fb081f4c",
+                                "permissions": "post_news,edit_network,create_group_public,create_group_restricted,create_group_private,create_group_secret,edit_network_widgets,edit_spotlight,edit_network_theme,assign_role,network_invite_user,delete_network_membership,edit_network_settings,create_role,edit_role,delete_role,assign_admin_role,install_app,add_edit_files,add_edit_folders,manage_files,view_network_messages,network_invite_external_user,post_to_network,access_network_users,access_network_groups,manage_user_groups,post_news_to_all_groups,manage_organization_structure,access_all_business_units,browse_files,customize_network_invite,arrange_widgets,post_updates_to_all_groups,manage_user_redeemable_codes,post_events_to_all_groups,post_events_to_network,edit_terms_and_conditions,pin_message,post_polls_to_network,post_polls_to_all_groups,delete_poll,access_statistics,view_user_activity,edit_network_pages,edit_menu_items,post_pages_to_network,post_pages_to_any_group,edit_page,delete_page,manage_journeys,manage_individual_tasks,manage_group_tasks,edit_profile_xid",
+                                "member": true,
+                                "track": {
+                                    "mixpanel": {
+                                        "tracking": false
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "comments": [],
+                    "likers": []
+                },
+                "type": "message",
+                "EID": "47f1a304490813d4",
+                "created": "2022-10-17T08:27:20.242+00:00",
+                "lastModified": "2022-10-17T09:19:30.659+00:00",
+                "lastEdited": "2022-10-17T09:19:30.659+00:00",
                 "messageType": "news",
                 "status": "published",
-                "title": "ehehhee",
-                "body": "asdfasdfasdafs",
-                "htmlBody": "<p>asdfasdfasdafs<\/p>",
-                "numRecipients": 10,
-                "numReaders": 4,
+                "title": "test",
+                "body": "Doe mee aan het medewerkersonderzoek!\n\nOp maandag 12 september heb je een mail gehad over het medewerkersonderzoek. De mail is gestuurd door Effectory. \n\n\nHeb je hem niet ontvangen? \nControleer dan je Ongewenste mail. \n\nNog steeds niks gevonden? Het kan zijn dat jouw privémail geregistreerd staat in Afas. Mocht je er niet uitkomen, ga dan naar https://support.effectory.com\n\nBeloning\nVul de vragen in, het kost ongeveer 5 minuten. Om zoveel mogelijk mensen deel te laten nemen, hebben wij een mooie beloning! De vestiging met het hoogste percentage deelnemers krijgt hulp",
+                "htmlBody": "<p></p><p><span style=\"background-color:transparent;\"><strong>Doe mee aan het medewerkersonderzoek!</strong></span></p><p><span style=\"background-color:transparent;\">Op maandag 12 september heb je een mail gehad over het medewerkersonderzoek. De mail is gestuurd door Effectory. </span></p><p></p><p><span style=\"background-color:transparent;\"><strong>Heb je hem niet ontvangen? </strong></span><br /><span style=\"background-color:transparent;\">Controleer dan je Ongewenste mail. </span><img class=\"image_resized image-style-align-right\" style=\"width:31.69%;\" src=\"http://127.0.0.1:3000/files/upload_1/\" /></p><p><span style=\"background-color:transparent;\">Nog steeds niks gevonden? Het kan zijn dat jouw privémail geregistreerd staat in Afas. Mocht je er niet uitkomen, ga dan naar </span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://support.effectory.com\"><span style=\"background-color:transparent;\"><u>https://support.effectory.com</u></span></a><br /><br /><span style=\"background-color:transparent;\"><strong>Beloning</strong></span><br /><span style=\"background-color:transparent;\">Vul de vragen in, het kost ongeveer 5 minuten. Om zoveel mogelijk mensen deel te laten nemen, hebben wij een mooie beloning! De vestiging met het hoogste percentage deelnemers krijgt hulp</span></p><p><img src=\"http://127.0.0.1:3000/files/upload_2/\" /></p><p></p><p></p><p></p>",
+                "numRecipients": 1,
+                "numReaders": 5,
                 "numAttachments": 0,
                 "numVideos": 0,
                 "numComments": 0,
                 "numLikes": 0,
                 "commentable": true,
                 "acknowledgeable": false,
-                "locked": false,
                 "mentions": [],
-                "headerBackgroundUrl": "https:\/\/static.test.speakap.nl\/img\/covers\/default-news-cover.jpg",
+                "headerBackgroundUrl": "https://static.test.speakap.nl/img/covers/default-news-cover.jpg",
                 "reactionStats": [],
                 "_user": {
-                    "read": false,
+                    "read": true,
+                    "hasLiked": false,
                     "subscribed": false,
                     "permissions": "comment,delete,like,view_readers"
                 }
