@@ -1,0 +1,323 @@
+{
+    "_links": {
+        "self": {
+            "href": "\/networks\/08e1e1eadc000e6c\/timeline\/?type=event"
+        }
+    },
+    "_embedded": {
+        "messages": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/47de0669e80dc628\/"
+                    },
+                    "author": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/users\/420e214f9c0dc038\/"
+                    },
+                    "recipient": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/",
+                        "name": "network"
+                    },
+                    "comments": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/?parent=47de0669e80dc628"
+                    },
+                    "like": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/47de0669e80dc628\/like"
+                    },
+                    "likers": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/47de0669e80dc628\/likers\/"
+                    }
+                },
+                "type": "message",
+                "EID": "47de0669e80dc628",
+                "created": "2022-10-13T13:00:40.015+00:00",
+                "messageType": "poll",
+                "title": "Tohid's poll",
+                "body": "",
+                "numRecipients": 1,
+                "numAttachments": 0,
+                "numComments": 0,
+                "numLikes": 0,
+                "commentable": true,
+                "reactionStats": [],
+                "ended": false,
+                "answers": [
+                    {
+                        "EID": "47de0669e60009d4",
+                        "title": "Option 1",
+                        "numVotes": 0,
+                        "percentageVotes": 0,
+                        "hasUserVoted": false
+                    },
+                    {
+                        "EID": "47de0669e7000dc4",
+                        "title": "Option 2",
+                        "numVotes": 0,
+                        "percentageVotes": 0,
+                        "hasUserVoted": false
+                    }
+                ],
+                "numVotes": 0,
+                "_user": {
+                    "subscribed": false,
+                    "permissions": "comment,delete,like,vote",
+                    "hasVoted": false
+                }
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cd67f8e0dcea8\/"
+                    },
+                    "author": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/users\/46bd956a510dc660\/"
+                    },
+                    "recipient": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/",
+                        "name": "network"
+                    },
+                    "comments": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/?parent=476cd67f8e0dcea8"
+                    },
+                    "like": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cd67f8e0dcea8\/like"
+                    },
+                    "likers": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cd67f8e0dcea8\/likers\/"
+                    },
+                    "images": [
+                        {
+                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cd674910dcbb8\/"
+                        },
+                        {
+                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cd674b50dcad8\/"
+                        },
+                        {
+                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cd6745b0dc120\/"
+                        },
+                        {
+                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cd672e60dc88c\/"
+                        },
+                        {
+                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cd674980dc260\/"
+                        }
+                    ]
+                },
+                "type": "message",
+                "EID": "476cd67f8e0dcea8",
+                "created": "2022-09-21T13:31:14.643+00:00",
+                "messageType": "update",
+                "superseded": false,
+                "body": "",
+                "numRecipients": 1,
+                "numImages": 5,
+                "numVideos": 0,
+                "numFiles": 0,
+                "numComments": 0,
+                "numLikes": 0,
+                "commentable": true,
+                "reactionStats": [],
+                "_user": {
+                    "subscribed": false,
+                    "permissions": "comment,delete,like"
+                }
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cb905440dc948\/"
+                    },
+                    "author": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/users\/46bd956a510dc660\/"
+                    },
+                    "recipient": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/groups\/23d17750db0dcc34\/",
+                        "name": "group"
+                    },
+                    "comments": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/?parent=476cb905440dc948"
+                    },
+                    "like": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cb905440dc948\/like"
+                    },
+                    "likers": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cb905440dc948\/likers\/"
+                    },
+                    "images": [
+                        {
+                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cb8fe6e0dc3d0\/"
+                        }
+                    ]
+                },
+                "type": "message",
+                "EID": "476cb905440dc948",
+                "created": "2022-09-21T12:59:02.802+00:00",
+                "messageType": "update",
+                "superseded": false,
+                "body": "",
+                "numRecipients": 1,
+                "numImages": 1,
+                "numVideos": 0,
+                "numFiles": 0,
+                "numComments": 0,
+                "numLikes": 0,
+                "commentable": true,
+                "reactionStats": [],
+                "_user": {
+                    "subscribed": false,
+                    "permissions": "comment,delete,like"
+                }
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cac7e6b0dc6d4\/"
+                    },
+                    "author": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/users\/46bd956a510dc660\/"
+                    },
+                    "recipient": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/",
+                        "name": "network"
+                    },
+                    "comments": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/?parent=476cac7e6b0dc6d4"
+                    },
+                    "like": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cac7e6b0dc6d4\/like"
+                    },
+                    "likers": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cac7e6b0dc6d4\/likers\/"
+                    },
+                    "images": [
+                        {
+                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cabcd440dcbb0\/"
+                        },
+                        {
+                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cac008d0dc5e8\/"
+                        },
+                        {
+                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/476cac008e0dc110\/"
+                        }
+                    ]
+                },
+                "type": "message",
+                "EID": "476cac7e6b0dc6d4",
+                "created": "2022-09-21T12:45:21.842+00:00",
+                "messageType": "update",
+                "superseded": false,
+                "body": "",
+                "numRecipients": 1,
+                "numImages": 3,
+                "numVideos": 0,
+                "numFiles": 0,
+                "numComments": 0,
+                "numLikes": 0,
+                "commentable": true,
+                "reactionStats": [],
+                "_user": {
+                    "subscribed": false,
+                    "permissions": "comment,delete,like"
+                }
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/4767a8274a0dcf38\/"
+                    },
+                    "author": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/users\/46bd956a510dc660\/"
+                    },
+                    "recipient": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/",
+                        "name": "network"
+                    },
+                    "comments": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/?parent=4767a8274a0dcf38"
+                    },
+                    "like": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/4767a8274a0dcf38\/like"
+                    },
+                    "likers": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/4767a8274a0dcf38\/likers\/"
+                    },
+                    "images": [
+                        {
+                            "href": "\/networks\/08e1e1eadc000e6c\/messages\/4767a809a30dcd9c\/"
+                        }
+                    ]
+                },
+                "type": "message",
+                "EID": "4767a8274a0dcf38",
+                "created": "2022-09-20T13:22:31.279+00:00",
+                "messageType": "update",
+                "superseded": false,
+                "body": "",
+                "numRecipients": 1,
+                "numImages": 1,
+                "numVideos": 0,
+                "numFiles": 0,
+                "numComments": 0,
+                "numLikes": 0,
+                "commentable": true,
+                "reactionStats": [],
+                "_user": {
+                    "subscribed": false,
+                    "permissions": "comment,delete,like"
+                }
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/4728a5631b0dc514\/"
+                    },
+                    "author": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/users\/46749fcbdc0dcbfc\/"
+                    },
+                    "recipients": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/4728a5631b0dc514\/recipients\/?sort%5B_user.member%5D=true%2Cfalse&sort%5Bname%5D=asc"
+                    },
+                    "comments": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/?parent=4728a5631b0dc514"
+                    },
+                    "like": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/4728a5631b0dc514\/like"
+                    },
+                    "likers": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/messages\/4728a5631b0dc514\/likers\/"
+                    },
+                    "lastEditor": {
+                        "href": "\/networks\/08e1e1eadc000e6c\/users\/46749fcbdc0dcbfc\/"
+                    }
+                },
+                "type": "message",
+                "EID": "4728a5631b0dc514",
+                "created": "2022-09-08T07:43:30.142+00:00",
+                "lastModified": "2022-09-21T09:40:42.125+00:00",
+                "lastEdited": "2022-09-21T09:40:42.125+00:00",
+                "messageType": "news",
+                "status": "published",
+                "title": "ehehhee",
+                "body": "asdfasdfasdafs",
+                "htmlBody": "<p>asdfasdfasdafs<\/p>",
+                "numRecipients": 10,
+                "numReaders": 4,
+                "numAttachments": 0,
+                "numVideos": 0,
+                "numComments": 0,
+                "numLikes": 0,
+                "commentable": true,
+                "acknowledgeable": false,
+                "locked": false,
+                "mentions": [],
+                "headerBackgroundUrl": "https:\/\/static.test.speakap.nl\/img\/covers\/default-news-cover.jpg",
+                "reactionStats": [],
+                "_user": {
+                    "read": false,
+                    "subscribed": false,
+                    "permissions": "comment,delete,like,view_readers"
+                }
+            }
+        ]
+    }
+}
